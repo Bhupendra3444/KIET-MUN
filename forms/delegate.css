@@ -1,0 +1,314 @@
+.form {
+  margin: 15%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 70px;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+input,
+select {
+  padding: 10px;
+  margin: 10px 0;
+  border: 0.1px solid #000;
+  border-radius: 2px;
+  font-size: 17px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 17px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-name {
+  padding: 0 15px 0 0;
+}
+
+.first-name,
+.last-name {
+  width: 100%;
+  display: inline-block;
+}
+
+.first-name label,
+.last-name label {
+  display: block;
+}
+
+.first-name input,
+.last-name input {
+  display: block;
+  width: 100%;
+}
+
+.ques textarea {
+  width: 100%;
+  height: 200px;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.ques label {
+  display: block;
+}
+
+.ques input {
+  width: 100%;
+}
+
+.attended-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around
+}
+
+.status-1,
+.status-2 {
+  width: 50%;
+  height: 100%;
+}
+
+.ques {
+  margin: 20px 0;
+}
+
+.preference-one,
+.preference-two,
+.preference-three {
+  display: flex;
+  width: 100%;
+  margin: 20px 10px;
+}
+
+.one-1,
+.one-2,
+.two-1,
+.two-2,
+.three-1,
+.three-2 {
+  width: 50%;
+  margin: 10px;
+}
+
+.select-one-1,
+.select-one-2,
+.select-two-1,
+.select-two-2,
+.select-three-1,
+.select-three-2 {
+  width: 100%;
+}
+
+.select-wrapper {
+  height: 100%;
+  padding: 2em;
+  display: grid;
+  place-content: center;
+}
+
+label {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+select {
+  padding: 1em;
+  width: 130%;
+  border-radius: 0.2em;
+  border: 1px solid #acacac;
+  color: #181820;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+
+  background: url("https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/dropdown_arrow-512.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: right;
+  background-origin: content-box;
+}
+
+.submit-btn {
+  color: #000;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 10px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.submit-btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+@media only screen and (max-width: 414px) {
+  .form {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  input,
+  select {
+    padding: 1px;
+    margin: 1px 0;
+    border: 0.1px solid #000;
+    border-radius: 2px;
+    font-size: 17px;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  label {
+    font-size: 10px;
+  }
+
+  .ques textarea {
+    font-size: 10px;
+  }
+
+  select {
+    padding: 1em;
+    width: 130%;
+    border-radius: 0.2em;
+    border: 1px solid #acacac;
+    color: #181820;
+
+    font-size: 8px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+
+    background: url("https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/dropdown_arrow-512.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: right;
+    background-origin: content-box;
+  }
+}
+
+@media only screen and (max-width: 834px) and (min-width: 639px) {
+  .form {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px;
+    margin-top: 70px; */
+    margin: 30px;
+    padding: 30px;
+  }
+
+  input,
+  select {
+    padding: 5px;
+    margin: 5px 0;
+    border: 0.1px solid #000;
+    border-radius: 2px;
+    font-size: 30px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  .ques textarea {
+    font-size: 15px;
+  }
+
+  select {
+    padding: 1em;
+    width: 130%;
+    border-radius: 0.2em;
+    border: 1px solid #acacac;
+    color: #181820;
+
+    font-size: 13px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+
+    background: url("https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/dropdown_arrow-512.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: right;
+    background-origin: content-box;
+  }
+}
+
+@media only screen and (max-width: 1220px) and (min-width: 835px) {
+  .form {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 70px;
+  }
+
+  input,
+  select {
+    padding: 8px;
+    margin: 8px 0;
+    border: 0.1px solid #000;
+    border-radius: 2px;
+    font-size: 17px;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  .ques textarea {
+    font-size: 20px;
+  }
+
+  select {
+    padding: 1em;
+    width: 130%;
+    border-radius: 0.2em;
+    border: 1px solid #acacac;
+    color: #181820;
+
+    font-size: 18px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+
+    background: url("https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/dropdown_arrow-512.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: right;
+    background-origin: content-box;
+  }
+}
+
+@media only screen and (max-width: 1820px) and (min-width: 1366px) {
+}

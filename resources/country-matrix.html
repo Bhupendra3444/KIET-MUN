@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9cfd8f728d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./country-matrix.css" />
+    <title>KIETMUN'24 | Home</title>
+  </head>
+  <body>
+    <input
+      type="checkbox"
+      id="main-navigation-toggle"
+      class="btn btn--close"
+      title="Toggle main navigation"
+    />
+    <label for="main-navigation-toggle">
+      <span></span>
+    </label>
+    <nav id="main-navigation" class="nav-main">
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="">Apply</a>
+          <ul class="submenu">
+            <li class="menu__item">
+              <a class="menu__link" href="../forms/delegate.html"
+                >Delegate Application</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="../forms/international.html"
+                >International Press Application</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="../about.html">About</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="">Our Team</a>
+          <ul class="submenu">
+            <li class="menu__item">
+              <a class="menu__link" href="../our-team/guiding-light.html"
+                >Our Guiding Light</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="../our-team/advisory-board.html"
+                >Advisory Board</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="../our-team/secretariate.html"
+                >Secretariat</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="../our-team/org-committee.html"
+                >Organising Committee</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="../messages.html">Messages</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="../committes.html">Committees</a>
+        </li>
+       
+        <li class="menu__item">
+          <a class="menu__link" href="#">Gallery</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="../club.html">KIETMUN Club</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="">Resources</a>
+          <ul class="submenu">
+            <li class="menu__item">
+              <a class="menu__link" href="../resources/country-matrix.html"
+                >Country Matrix</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="../resources/background-guides.html"
+                >Background Guides</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="../resources/awards-criteria.html"
+                >Newsletters</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="../resources/conference-schedule.html"
+                >Conference Schedule</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div id="back">
+      <nav>
+        <div class="menu-bar">
+          <ul>
+            <li><a href="../about.html">About</a></li>
+            <li>
+              Our Team <i class="fas fa-chevron-down"></i>
+              <div class="sub-menu-1">
+                <ul>
+                  <li>
+                    <a href="../our-team/guiding-light.html"
+                      >Our Guiding Light</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../our-team/advisory-board.html">Advisory Board</a>
+                  </li>
+                  <li>
+                    <a href="../our-team/secretariate.html">Secretariat</a>
+                  </li>
+                  <li>
+                    <a href="../our-team/org-committee.html"
+                      >Organising Committee</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="../messages.html">Messages</a></li>
+            <li><a href="../committes.html">Committees</a></li>
+          </ul>
+        </div>
+        <div id="logo">
+          <a href="../index.html"
+            ><img src="../assets/KIET LOGO.png" alt="KIETMUN logo" srcset=""
+          /></a>
+        </div>
+        <div class="menu-bar">
+          <ul>
+            <li>
+              Apply <i class="fas fa-chevron-down"></i>
+              <div class="sub-menu-1">
+                <ul>
+                  <li>
+                    <a href="../forms/delegate.html">Delegate Application</a>
+                  </li>
+                  <li>
+                    <a href="../forms/international.html"
+                      >International Press Application</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>Gallery</li>
+            <li><a href="../club.html">KIETMUN Club</a></li>
+            <li>
+              <a href="./resources.html">Resources</a>
+              <i class="fas fa-chevron-down"></i>
+              <div class="sub-menu-1">
+                <ul>
+                  <li>
+                    <a href="../resources/country-matrix.html"
+                      >Country Matrix</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../resources/background-guides.html"
+                      >Background Guides</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../resources/awards-criteria.html">Newsletters</a>
+                  </li>
+                  <li>
+                    <a href="../resources/conference-schedule.html">
+                      Conference Schedule</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#bottom"> Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header-section">
+        <h2 class="header theme">Country Matrix<br /></h2>
+      </div>
+
+      <div class="acc-holder">
+        <div class="acc-toggle" data-collapse="">
+          <div class="acc-block">
+            <div class="acc-no">(01)</div>
+            <div class="acc-title">
+              United Nations Human <br />Rights Council
+            </div>
+            <div class="acc-toggle-icon">
+              <ion-icon name="add-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <ul class="list-holder">
+          <li class="list">Afghanistan (O)</li>
+          <li class="list">Argentina</li>
+          <li class="list">Armenia</li>
+          <li class="list">Australia (O)</li>
+          <li class="list">Austria</li>
+          <li class="list">Bahamas</li>
+          <li class="list">Bahrain</li>
+          <li class="list">Bangladesh</li>
+          <li class="list">Barbados (O)</li>
+          <li class="list">Belgium (O)</li>
+          <li class="list">Bolivia</li>
+          <li class="list">Brazil</li>
+          <li class="list">Bulgaria</li>
+          <li class="list">Burkina Faso</li>
+          <li class="list">Canada (O)</li>
+          <li class="list">Cameroon</li>
+          <li class="list">China</li>
+          <li class="list">Côte d’Ivoire</li>
+          <li class="list">Chad(O)</li>
+          <li class="list">Chile (O)</li>
+          <li class="list">Colombia (O)</li>
+          <li class="list">Costa Rica (O)</li>
+          <li class="list">Croatia (O)</li>
+          <li class="list">Cuba</li>
+          <li class="list">Czech Republic</li>
+          <li class="list">Democratic People's Republic of Korea (O)</li>
+          <li class="list">Democratic Republic of the Congo (O)</li>
+          <li class="list">Denmark</li>
+          <li class="list">Eritrea</li>
+          <li class="list">Egypt (O)</li>
+          <li class="list">Fiji</li>
+          <li class="list">Finland (O)</li>
+          <li class="list">France</li>
+          <li class="list">Germany</li>
+          <li class="list">Gabon</li>
+          <li class="list">Hungary (O)</li>
+          <li class="list">Iceland (O)</li>
+          <li class="list">India</li>
+          <li class="list">Indonesia</li>
+          <li class="list">Islamic Republic of Iran (O)</li>
+          <li class="list">Italy</li>
+          <li class="list">Jamaica (O)</li>
+          <li class="list">Japan</li>
+          <li class="list">Kenya (O)</li>
+          <li class="list">Libya</li>
+          <li class="list">Lithuania (O)</li>
+          <li class="list">Luxembourg (O)</li>
+          <li class="list">Macedonia (O)</li>
+          <li class="list">Malawi</li>
+          <li class="list">Marshall Islands</li>
+          <li class="list">Malaysia (O)</li>
+          <li class="list">Mexico (O)</li>
+          <li class="list">Myanmar (O)</li>
+          <li class="list">Namibia</li>
+          <li class="list">Nepal</li>
+          <li class="list">Netherlands</li>
+          <li class="list">New Zealand (O)</li>
+          <li class="list">Norway (O)</li>
+          <li class="list">Pakistan</li>
+          <li class="list">Paraguay (O)</li>
+          <li class="list">Peru (O)</li>
+          <li class="list">Philippines</li>
+          <li class="list">Poland</li>
+          <li class="list">Portugal (O)</li>
+          <li class="list">Qatar (O)</li>
+          <li class="list">Republic of Korea</li>
+          <li class="list">Romania (O)</li>
+          <li class="list">Russian Federation</li>
+          <li class="list">Senegal</li>
+          <li class="list">Saudi Arabia (O)</li>
+          <li class="list">Slovakia (O)</li>
+          <li class="list">Solomon Islands (O)</li>
+          <li class="list">Somalia</li>
+          <li class="list">South Africa (O)</li>
+          <li class="list">Spain (O)</li>
+          <li class="list">Sri Lanka (O)</li>
+          <li class="list">Sudan</li>
+          <li class="list">Sweden (O)</li>
+          <li class="list">Switzerland (O)</li>
+          <li class="list">Syrian Arab Republic (O)</li>
+          <li class="list">Togo</li>
+          <li class="list">Thailand (O)</li>
+          <li class="list">Turkey (O)</li>
+          <li class="list">Ukraine</li>
+          <li class="list">United Kingdom</li>
+          <li class="list">United States of America (O)</li>
+          <li class="list">Uruguay</li>
+          <li class="list">Uzbekistan</li>
+          <li class="list">Venezuela (Bolivarian Republic of)</li>
+        </ul>
+
+        <div class="acc-toggle" data-collapse="">
+          <div class="acc-block">
+            <div class="acc-no">(02)</div>
+            <div class="acc-title">United Nations General Assembly-DISEC</div>
+            <div class="acc-toggle-icon">
+              <ion-icon name="add-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <ul class="list-holder">
+          <li class="list">Afghanistan</li>
+          <li class="list">Algeria</li>
+          <li class="list">Angola</li>
+          <li class="list">Argentina</li>
+          <li class="list">Australia</li>
+          <li class="list">Armenia</li>
+          <li class="list">Austria</li>
+          <li class="list">Bahrain</li>
+          <li class="list">Bangladesh</li>
+          <li class="list">Belarus</li>
+          <li class="list">Belgium</li>
+          <li class="list">Bhutan</li>
+          <li class="list">Bolivia</li>
+          <li class="list">Brazil</li>
+          <li class="list">Brunei</li>
+          <li class="list">Burundi</li>
+          <li class="list">Canada</li>
+          <li class="list">Chile</li>
+          <li class="list">People's Republic of China(CHINA)</li>
+          <li class="list">Cambodia</li>
+          <li class="list">Costa Rica</li>
+          <li class="list">Cyprus</li>
+          <li class="list">Democratic Republic of Congo</li>
+          <li class="list">Dominican Republic</li>
+          <li class="list">Denmark</li>
+          <li class="list">Egypt</li>
+          <li class="list">El Salvador</li>
+          <li class="list">Ethiopia</li>
+          <li class="list">Eritrea</li>
+          <li class="list">Finland</li>
+          <li class="list">France</li>
+          <li class="list">Germany</li>
+          <li class="list">Greece</li>
+          <li class="list">Guatemala</li>
+          <li class="list">Georgia</li>
+          <li class="list">Ghana</li>
+          <li class="list">Haiti</li>
+          <li class="list">India</li>
+          <li class="list">Indonesia</li>
+          <li class="list">Iraq</li>
+          <li class="list">Israel</li>
+          <li class="list">Iran</li>
+          <li class="list">Italy</li>
+          <li class="list">Japan</li>
+          <li class="list">Jordan</li>
+          <li class="list">Kenya</li>
+          <li class="list">Kazakhstan</li>
+          <li class="list">Democratic People's Republic of Korea(South Korea)</li>
+          <li class="list">Kuwait</li>
+          <li class="list">Kyrgyzstan</li>
+          <li class="list">Laos</li>
+          <li class="list">Lebanon</li>
+          <li class="list">Libya</li>
+          <li class="list">Luxembourg</li>
+          <li class="list">Liechtenstein</li>
+          <li class="list">Mexico</li>
+          <li class="list">Malaysia</li>
+          <li class="list">Maldives</li>
+          <li class="list">Montenegro</li>
+          <li class="list">Mongolia</li>
+          <li class="list">Myanmar</li>
+          <li class="list">Netherlands</li>
+          <li class="list">New Zealand</li>
+          <li class="list">Nigeria</li>
+          <li class="list">Norway</li>
+          <li class="list">Nepal</li>
+          <li class="list">Oman</li>
+          <li class="list">Pakistan</li>
+          <li class="list">Palestine(O)</li>
+          <li class="list">Philippines</li>
+          <li class="list">Poland</li>
+          <li class="list">Qatar</li>
+          <li class="list">Russian Federation</li>
+          <li class="list">Rwanda</li>
+          <li class="list">Saudi Arabia</li>
+          <li class="list">Senegal</li>
+          <li class="list">Singapore</li>
+          <li class="list">Spain</li>
+          <li class="list">Sri Lanka</li>
+          <li class="list">Sudan</li>
+          <li class="list">Sweden</li>
+          <li class="list">Syria</li>
+          <li class="list">Sri Lanka</li>
+          <li class="list">South Africa</li>
+          <li class="list">Tajikistan</li>
+          <li class="list">Thailand</li>
+          <li class="list">Timor-Leste</li>
+          <li class="list">Turkey</li>
+          <li class="list">Turkmenistan</li>
+          <li class="list">United Arab Emirates</li>
+          <li class="list">United Kingdom</li>
+          <li class="list">United States Of America</li>
+          <li class="list">Uzbekistan</li>
+          <li class="list">Uruguay</li>
+          <li class="list">Venezuela</li>
+          <li class="list">Vietnam</li>
+          <li class="list">Yemen</li>
+          <li class="list">Zimbabwe</li>
+        </ul>
+
+        <div class="acc-toggle" data-collapse="">
+          <div class="acc-block">
+            <div class="acc-no">(03)</div>
+            <div class="acc-title">
+              United Nations Commission <br />on Status of Women
+            </div>
+            <div class="acc-toggle-icon">
+              <ion-icon name="add-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <ul class="list-holder">
+          <li class="list">Afghanistan</li>
+          <li class="list">Algeria</li>
+          <li class="list">Argentina</li>
+          <li class="list">Armenia</li>
+          <li class="list">Australia</li>
+          <li class="list">Austria</li>
+          <li class="list">Bangladesh</li>
+          <li class="list">Belarus</li>
+          <li class="list">Brazil</li>
+          <li class="list">Belgium</li>
+          <li class="list">Belize</li>
+          <li class="list">Benin</li>
+          <li class="list">Bhutan</li>
+          <li class="list">Bolivia(Plurinational State of)</li>
+          <li class="list">Bosnia and Herzegovina</li>
+          <li class="list">Botswana</li>
+          <li class="list">Bulgaria</li>
+          <li class="list">Canada</li>
+          <li class="list">China</li>
+          <li class="list">Colombia</li>
+          <li class="list">Costa Rica</li>
+          <li class="list">Croatia</li>
+          <li class="list">Cote d’Ivoire</li>
+          <li class="list">Cyprus</li>
+          <li class="list">Cuba</li>
+          <li class="list">Czech Republic</li>
+          <li class="list">Denmark</li>
+          <li class="list">Democratic Republic Of Congo</li>
+          <li class="list">Democratic Republic Of Korea</li>
+          <li class="list">Egypt</li>
+          <li class="list">Ethiopia</li>
+          <li class="list">France</li>
+          <li class="list">Gabon</li>
+          <li class="list">Gambia</li>
+          <li class="list">Germany</li>
+          <li class="list">Greenland</li>
+          <li class="list">Iceland</li>
+          <li class="list">India</li>
+          <li class="list">Iran(Islamic Republic of)</li>
+          <li class="list">Israel</li>
+          <li class="list">Italy</li>
+          <li class="list">Japan</li>
+          <li class="list">Latvia</li>
+          <li class="list">Lebanon</li>
+          <li class="list">Malaysia</li>
+          <li class="list">Mauritania</li>
+          <li class="list">Mexico</li>
+          <li class="list">Morocco</li>
+          <li class="list">Norway</li>
+          <li class="list">Nigeria</li>
+          <li class="list">Philippines</li>
+          <li class="list">Pakistan</li>
+          <li class="list">Romania</li>
+          <li class="list">Russian Federation</li>
+          <li class="list">Somalia</li>
+          <li class="list">South Africa</li>
+          <li class="list">Switzerland</li>
+          <li class="list">Turkey</li>
+          <li class="list">Tunisia</li>
+          <li class="list">United States</li>
+          <li class="list">United Kingdom</li>
+          <li class="list">Sweden</li>
+          <li class="list">South Korea</li>
+          <li class="list">Ukraine</li>
+          <li class="list">Finland</li>
+          <li class="list">Syria</li>
+          <li class="list">Netherlands</li>
+          <li class="list">San Marino</li>
+          <li class="list">Qatar</li>
+          <li class="list">Andorra</li>
+          <li class="list">Antigua and Barbuda</li>
+          <li class="list">Burundi</li>
+          <li class="list">Cabo Verde</li>
+          <li class="list">Grenada</li>
+          <li class="list">Guatemala</li>
+          <li class="list">Guinea</li>
+          <li class="list">Lesotho</li>
+          <li class="list">Liberia</li>
+          <li class="list">Libya</li>
+          <li class="list">Lithuania</li>
+          <li class="list">Montenegro</li>
+          <li class="list">Nicragua</li>
+          <li class="list">Mozambique</li>
+          <li class="list">Namibia</li>
+          <li class="list">Nauru</li>
+          <li class="list">Saint Kitts and Nevis</li>
+          <li class="list">Saint Lucia</li>
+          <li class="list">Saint Vincent and the Grenadines</li>
+          <li class="list">Samoa</li>
+          <li class="list">San Marino</li>
+          <li class="list">Sao Tone and Principe</li>
+          <li class="list">Yemen</li>
+          <li class="list">Zambia</li>
+          <li class="list">Uruguay</li>
+          <li class="list">Uzbekistan</li>
+          <li class="list">Vanuatu</li>
+          <li class="list">Barbados</li>
+          <li class="list">Cameroon</li>
+          <li class="list">Malta</li>
+          <li class="list">Slovakia</li>
+          <li class="list">Vietnam</li>
+          <li class="list">Equatorial Guinea</li>
+          <li class="list">Guatemala</li>
+        </ul>
+
+        
+        <div class="acc-toggle" data-collapse="">
+          <div class="acc-block">
+            <div class="acc-no">(04)</div>
+            <div class="acc-title">All India Political Party Meet</div>
+            <div class="acc-toggle-icon">
+              <ion-icon name="add-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <ul class="list-holder">
+          <li class="list">Narendra Modi</li>
+          <li class="list">Rajanath Singh</li>
+          <li class="list">Nirmal Sitharaman</li>
+          <li class="list">Smriti Irani</li>
+          <li class="list">Maneka Gandhi</li>
+          <li class="list">Amit Shah</li>
+          <li class="list">Jyotiraditya Scindia</li>
+          <li class="list">Nitin Gadkari</li>
+          <li class="list">Ravi Shankar Prasad</li>
+          <li class="list">Dr Harsh Vardhan</li>
+          <li class="list">Subramanyam Jaishankar</li>
+          <li class="list">Vasundhara Raje</li>
+          <li class="list">Captain Amarinder Singh</li>
+          <li class="list">Kiren Rijiju</li>
+          <li class="list">Arjun Ram Meghwal</li>
+          <li class="list">Himanta Biswa Sarma</li>
+          <li class="list">Pramod Sawant</li>
+          <li class="list">Bhupendrabhai Patel</li>
+          <li class="list">Basavaraj Bommai</li>
+          <li class="list">Shivraj Singh Chouhan</li>
+          <li class="list">Manik Saha</li>
+          <li class="list">Pushkar Singh Dhami</li>
+          <li class="list">Dharmendra Pradhan</li>
+          <li class="list">Ashvini Vaishnaw</li>
+          <li class="list">Mukhtar Abbas Naqvi</li>
+          <li class="list">N. Biren Singh</li>
+          <li class="list">Sonia Gandhi</li>
+          <li class="list">Rahul Gandhi</li>
+          <li class="list">Ambika Soni</li>
+          <li class="list">Dr Shashi Tharoor</li>
+          <li class="list">Sachin Pilot</li>
+          <li class="list">Meira Kumar</li>
+          <li class="list">Salman Khurshid</li>
+          <li class="list">Dr Manmohan Singh</li>
+          <li class="list">Gaurav Gogoi</li>
+          <li class="list">Bhupesh Baghel</li>
+          <li class="list">Sukhvinder Singh Sukhu</li>
+          <li class="list">Ashok Gehlot</li>
+          <li class="list">Adhir Ranjan Chowdhury</li>
+          <li class="list">Karti P Chidambaram</li>
+          <li class="list">Manish Tewari</li>
+          <li class="list">Arvind Kejriwal</li>
+          <li class="list">Raghav Chadha</li>
+          <li class="list">Sanjay Singh</li>
+          <li class="list">Bhagwant Mann</li>
+          <li class="list">Asaddudin Owaisi</li>
+          <li class="list">N. Rangaswamy</li>
+          <li class="list">Mamata Banerjee</li>
+          <li class="list">Mimi Chakraborty</li>
+          <li class="list">Mahua Moitra</li>
+          <li class="list">Abhishek Banerjee</li>
+          <li class="list">Chandra Prakash Choudhary</li>
+          <li class="list">Anupriya Patel</li>
+          <li class="list">Kumari Mayawati</li>
+          <li class="list">Satish Mishra</li>
+          <li class="list">Afzal Ansari</li>
+          <li class="list">Kunwar Danish Ali</li>
+          <li class="list">K P Reddy</li>
+          <li class="list">Bhartruhari Mahtab</li>
+          <li class="list">Naveen Patnaik</li>
+          <li class="list">Sitaram Yechury</li>
+          <li class="list">Brinda Karat</li>
+          <li class="list">Pinarayi Vijayan</li>
+          <li class="list">Dayanidhi Maran</li>
+          <li class="list">M. K. Stalin</li>
+          <li class="list">Naba Kumar Sarania</li>
+          <li class="list">Dr. Farooq Abdullah</li>
+          <li class="list">Kaushalendra Kumar</li>
+          <li class="list">Nitish Kumar</li>
+          <li class="list">Chirag Paswan</li>
+          <li class="list">Raj Thackeray</li>
+          <li class="list">Zoramthanga</li>
+          <li class="list">Agatha Sangma</li>
+          <li class="list">Conrad Sangma</li>
+          <li class="list">Sharad Pawar</li>
+          <li class="list">Ajit Pawar </li>
+          <li class="list">Praful Patel</li>
+          <li class="list">Neiphiu Rio</li>
+          <li class="list">Tejashvi Yadav</li>
+          <li class="list">Misa Bharti</li>
+          <li class="list">Rabri Devi</li>
+          <li class="list">Manoj Jha</li>
+          <li class="list">Mehboob Ali Kaiser</li>
+          <li class="list">Hanuman Beniwal</li>
+          <li class="list">N K Premachandran</li>
+          <li class="list">Akhilesh Yadav</li>
+          <li class="list">Ram Gopal Yadav</li>
+          <li class="list">Harsimrat Kaur Badal</li>
+          <li class="list">Sukhbir Singh Badal</li>
+          <li class="list">Sanjay Raut</li>
+          <li class="list">Uddhav Thackeray</li>
+          <li class="list">Vinayak Raut</li>
+          <li class="list">Eknath Shinde</li>
+          <li class="list">Prem Singh Tamang</li>
+          <li class="list">Indra Hang Subba </li>
+          <li class="list">Yogendra Yadav</li>
+          <li class="list">Derek O'Brien</li>
+          <li class="list">Y. S. Jagan Mohan Reddy</li>
+          <li class="list">Ghulam Nabi Azad</li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <br>
+    <h2>For More Details, Click Here <a href="https://shorturl.at/hlrH9">Matrix Link</a></h2>
+    <hr />
+    <footer id="bottom">
+      <div class="footer-content">
+        <div class="content-one">
+          <h3>Conference Information</h3>
+
+          <p>
+            May 04-05, 2024<br />
+            Delhi-NCR, Ghaziabad-Meerut Road Ghaziabad-201206
+          </p>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.8932140579336!2d77.49584577520697!3d28.752605078618345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf47204fb9241%3A0xd11ed4123c7691fe!2sKIET%20GROUP%20OF%20INSTITUTIONS%2C%20Muradnagar%2C%20Uttar%20Pradesh%20201206!5e0!3m2!1sen!2sin!4v1708017750945!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="content-two">
+          <h3>Contact Us</h3>
+
+          <div class="contact">
+            <p><b>Vedika Chauhan</b></p>
+            <a href="tel:+91 8476088136">+91 8476088136</a><br />
+            <a href="mailto: kietmun@kiet.edu">kietmun@kiet.edu</a>
+          </div>
+
+          <div class="contact">
+            <p><b>Rishabh</b> </p>
+            <a href="tel:+91 7456972509">+91 7456972509</a><br />
+          </div>
+
+          <div class="contact">
+            <p><b>Vipul Tiwari</b> </p>
+            <a href="tel:+91 8299159834">+91 8299159834</a><br />
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <ul class="socials">
+          <li>
+            <a href="https://m.facebook.com/profile.php/?id=100063820219367&name=xhp_nt_"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/kiet_mun?igsh=MWpjdWVkMDhlYzRycw=="
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          
+        </ul>
+        <p>Copyright &copy;2024 KIET Group Of Instituions</p>
+      </div>
+    </footer>
+    <script>
+      var $cursor = $(".cursor"),
+        $overlay = $(".project-overlay");
+
+      function moveCircle(e) {
+        TweenLite.to($cursor, 0.5, {
+          css: {
+            left: e.pageX,
+            top: e.pageY,
+          },
+          delay: 0.03,
+        });
+      }
+
+      $(".p-1").hover(function () {
+        $(".cursor").css({ "background-image": "url(image-1.jpg)" });
+      });
+      $(".p-2").hover(function () {
+        $(".cursor").css({ "background-image": "url(image-2.jpg)" });
+      });
+      $(".p-3").hover(function () {
+        $(".cursor").css({ "background-image": "url(image-3.jpg)" });
+      });
+      $(".p-4").hover(function () {
+        $(".cursor").css({ "background-image": "url(image-4.jpg)" });
+      });
+
+      var flag = false;
+      $($overlay).mousemove(function () {
+        flag = true;
+        TweenLite.to($cursor, 0.3, { scale: 1, autoAlpha: 1 });
+        $($overlay).on("mousemove", moveCircle);
+      });
+
+      $($overlay).mouseout(function () {
+        flag = false;
+        TweenLite.to($cursor, 0.1, { scale: 0.1, autoAlpha: 0 });
+      });
+
+      let parent = document.querySelectorAll("[data-collapse");
+      parent.forEach((element) => {
+        let clickTarget = element.querySelector("*");
+        let collapseElement = element.nextElementSibling;
+        let collapseElementChildren = collapseElement.children;
+        let tl = new TimelineMax({
+          reversed: true,
+          paused: true,
+        });
+
+        tl.from(
+          collapseElement,
+          1.6,
+          {
+            className: "+=heightZero",
+            ease: Expo.easeInOut,
+          },
+          "open"
+        );
+        tl.staggerFrom(
+          collapseElementChildren,
+          1,
+          {
+            autoAlpha: 0,
+            y: "40%",
+            ease: Expo.easeInOut,
+          },
+          0.08,
+          "open+=.1"
+        );
+
+        clickTarget.addEventListener("click", () => {
+          tl.reversed() ? tl.play() : tl.reverse();
+        });
+      });
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+      integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="../main.js"></script>
+  </body>
+</html>
