@@ -45,9 +45,7 @@ p {
   margin: 50px 0px;
 }
 
-.text.reveal, .justified-content.reveal {
-  animation: revealTextAnimation 0.64s ease forwards;
-}
+
 .text:before, .justified-content:before {
   content: "";
   position: absolute;
@@ -56,18 +54,7 @@ p {
   height: 100%;
   /*   z-index: 1; */
 }
-.text.reveal:before, .justified-content.reveal:before {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(27, 27, 138, 1) 0%,
-    rgba(91, 91, 170, 1) 50%,
-    rgba(147, 22, 22, 1) 100%,
-    rgba(252, 176, 69, 1) 100%
-  );
-  animation: blockRevealAnimation 0.8s ease forwards;
-}
+
 
 
 
@@ -97,22 +84,7 @@ p {
   z-index: 2;
 }
 
-.img.reveal:before {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(27, 27, 138, 1) 0%,
-    rgba(91, 91, 170, 1) 50%,
-    rgba(147, 22, 22, 1) 100%,
-    rgba(252, 176, 69, 1) 100%
-  );
-  animation: blockRevealAnimation 0.8s ease forwards;
-}
 
-.img.reveal img {
-  animation: revealImgAnimation 0.8s ease forwards;
-}
 
 @keyframes blockRevealAnimation {
   0% {
@@ -193,3 +165,13 @@ p {
 
 @media only screen and (max-width: 1820px) and (min-width: 1366px) {
 }
+
+.img.reveal:before {
+  background: rgb(255, 255, 255);
+  animation: blockRevealAnimation 0.2s ease forwards; /* Adjusted duration to 0.4s */
+}
+
+.img.reveal img {
+  animation: revealImgAnimation 0.2s ease forwards; /* Adjusted duration to 0.4s */
+}
+
